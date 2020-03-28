@@ -1,6 +1,170 @@
-#body > ul {
+body{
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+
+}
+ .header{
+    margin: 0 auto;
+    width: 960px;
+    padding: 44px 0 50px;
+    text-align: center;
+}
+
+.header a .logo{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 340px;
+}
+
+.header ul{
+    margin: 0;
+    padding: 56px 0 0;
+    list-style-type: none;
+}
+
+.header ul li{
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0 19px;
+}
+
+ul li.select a{
+    color:#0ba39c;
+}
+
+.header ul li a{
+    display: inline-block;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+ul li a{
+    color: #252525;
+    display: inline-block;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.body{
+    margin: 0;
+    padding: 0 0 30px;
+    text-align: center;
+}
+
+.body h1 {
+    color: #fff;
+    display: inline;
+    font-family: Poller One;
+    font-size: 35px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.body h1 span {
+    background: #252525;
+    display: inline-block;
+    padding: 15px 28px 12px;
+}
+
+.body > ul {
     margin: 0 auto;
     overflow: hidden;
     padding: 24px 0 0;
     width: 960px;
 }
+
+.body > ul li{
+    display: block;
+    float: left;
+    margin: 0 10px 20px;
+    padding: 0;
+    width: 300px;
+}
+
+.body > ul li a {
+    color: #000;
+    display: block;
+    font-family: Poller One;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.body > ul li a img {
+    border: 2px solid #1a1a1a;
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: .8;
+    transition: 0.5s ease-in-out;
+}
+
+.footer div{
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    width: 960px;
+}
+
+.footer div p{
+    color: #ffff;
+    float: left;
+    line-height: 44px;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.footer div ul {
+    display: block;
+    float: right;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 256px;
+}
+
+i{
+    color: #ffff;
+}
+.footer div i:hover{
+    color:#d3d3d3;
+}
+
+.footer div ul li {
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+    width: 44px;
+
+}
+
+
+
+

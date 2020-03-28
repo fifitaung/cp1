@@ -42,7 +42,7 @@ ul li.select a{
 
 .header ul li a{
     display: inline-block;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: "Arial Black", "Gadget", "sans-serif";
     font-size: 14px;
     font-weight: normal;
     margin: 0;
@@ -55,7 +55,7 @@ ul li.select a{
 ul li a{
     color: #252525;
     display: inline-block;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: "Arial Black", "Gadges", "sans-serif";
     font-size: 14px;
     font-weight: normal;
     margin: 0;
@@ -180,32 +180,52 @@ ul li a{
     background-color:#242424;
     margin: 0;
     padding: 36px 0 42px;
-    position: relative;
 } 
 
- .footer div i:hover{
-     color:#fff;
-    margin: 0;
+ .footer div{
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    width: 960px;
 }
 
 .footer div p{
     color: #ffff;
     float: left;
-    
-
-    
+    line-height: 44px;
+    margin: 0 0 0 10px;
+    padding: 0;
 }
 
+.footer div ul {
+    display: block;
+    float: right;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 256px;
+}
+
+i{
+    color: #ffff;
+}
+.footer div i:hover{
+    color: #d3d3d3;
+}
 
 .footer div ul li {
     display: block;
     float: left;
     list-style: none;
     margin: 0 10px;
-    position: relative;
-    left: 100px
+    padding: 0;
+    width: 44px;
+
+}
+
+
        
-} 
+
 
 
 

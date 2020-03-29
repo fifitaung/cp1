@@ -36,7 +36,7 @@ body{
     padding: 0 19px;
 }
 
-ul li.select a{
+.header ul li a:hover, .header ul li.select a{
     color:#0ba39c;
 }
 
@@ -129,14 +129,14 @@ ul li a{
     text-transform: uppercase;
 }
 
-.body > ul{
+.body ul{
     margin: 0 auto;
     overflow: hidden;
     padding: 24px 0 0;
     width: 960px;
 }
 
-.body > ul li{
+.body ul li{
     display: block;
     float: left;
     margin: 0 10px 20px;
@@ -144,17 +144,21 @@ ul li a{
     width: 300px;
 }
 
-.body > ul li a img{
+.body ul li a img{
     border: 2px solid #1a1a1a;
     display: block;
     margin: 0;
     padding: 0;
-    opacity: .8;
+    opacity: 0.8;
     transition: 0.5s ease-in-out;
 
 }
 
-.body > ul li a{
+.body ul li a:hover img {
+	opacity: 1;
+}
+
+.body ul li a{
     color: #000;
     display: block;
     font-family: 'Poller One';
@@ -168,7 +172,7 @@ ul li a{
 
 }
 
-.body > ul li a span{
+.body ul li a span{
     display: block;
     margin: 0;
     padding: 33px 0 0;
